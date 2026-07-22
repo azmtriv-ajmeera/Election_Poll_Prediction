@@ -4,10 +4,10 @@ from pathlib import Path
 # Project Root Directory
 BASE_DIR = Path(__file__).resolve().parents[2]
 
-# Input Directory
+# locate the raw data folder(input directory)
 RAW_DIR = BASE_DIR / "data" / "raw" / "google_trends"
 
-# Output Directory
+# locate the processed data folder(output directory)
 PROCESSED_DIR = BASE_DIR / "data" / "processed" / "google_trends"
 
 # Create output directory if it doesn't exist
